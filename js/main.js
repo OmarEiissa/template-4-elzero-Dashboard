@@ -13,3 +13,9 @@ document.addEventListener("scroll", function () {
     filesContentElement.classList.remove("scroll");
   }
 });
+
+document.querySelectorAll("a[href='#']").forEach((e) => {
+  e.addEventListener("click", function (event) {
+    event.preventDefault();
+  });
+});

@@ -819,6 +819,7 @@ ul {
 }
 .profile-page .skills-card ul li span:not(:last-child) {
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 .profile-page .activities {
   flex-grow: 2;
